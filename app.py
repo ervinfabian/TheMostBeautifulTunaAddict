@@ -4,17 +4,17 @@ import numpy as np
 
 st.title("A vilag legszebb tonhal fuggojenek weboldala!!!")
 
-image = cv2.imread("reka.jpeg")
+# image = cv2.imread("reka.jpeg")
 
-# file_bytes = np.asarray(image, dtype=np.uint8)
-file_bytes = np.asarray(image)
+# # file_bytes = np.asarray(image, dtype=np.uint8)
+# file_bytes = np.asarray(image)
 
 
 
 # opencv_image = cv2.imdecode(file_bytes, 1)
 
 # Now do something with the image! For example, let's display it:
-st.image(file_bytes)
+st.image("reka.jpeg")
 
 # st.write("Kerjuk adja meg a heten elfogyasztasra szant tonhal mennyiseget mg-ban!")
 
