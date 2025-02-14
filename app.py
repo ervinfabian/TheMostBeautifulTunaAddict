@@ -27,7 +27,7 @@ healthy_amount_of_mercury_for_Reka = bodyweight * 0.1
 amount_of_mercury_in_1g_tuna = 1.2
 
 if (amount_tuna != 0) and (bodyweight != 0):
-    if (amount_tuna * amount_of_mercury_in_1g_tuna) < healthy_amount_of_mercury_for_Reka:
+    if (amount_tuna * amount_of_mercury_in_1g_tuna) < healthy_amount_of_mercury_for_Reka * 7:
         st.write("Batran elfogyaszthatja az osszes tervezett tonhalat!")
     else:
         st.write("Kerjuk fogyasszon lehetoleg kevesebb tonhalat a heten, hogy tovabb gyonyorkodhessunk Onben!")
