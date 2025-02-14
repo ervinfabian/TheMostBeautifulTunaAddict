@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import numpy as np
 
-st.title("A világ legszebb tonhal függőjenek !!!")
+st.title("A világ legszebb tonhal függőjének !!!")
 
 # image = cv2.imread("reka.jpeg")
 
